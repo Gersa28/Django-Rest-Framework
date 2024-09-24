@@ -295,3 +295,4 @@ pip-selfcheck.json
 env
 venv
 __pycache__
+migrations
