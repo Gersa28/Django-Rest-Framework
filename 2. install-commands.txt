@@ -1,0 +1,10 @@
+pip freeze | findstr Django >> requirements.txt
+pip freeze | findstr djangorestframework >> requirements.txt
+pip freeze | findstr ipython >> requirements.txt
+pip freeze | findstr coreapi >> requirements.txt
+pip freeze | findstr drf-spectacular >> requirements.txt
+pip freeze | findstr django-extensions >> requirements.txt
+
+
+
+pip install -r requirements.txt
